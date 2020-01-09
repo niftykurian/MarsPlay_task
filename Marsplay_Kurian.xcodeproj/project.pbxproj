@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A5739DD541D2F5B29523ABE /* Pods_Marsplay_KurianUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBCE198EC2DE5E84E1A58DB /* Pods_Marsplay_KurianUITests.framework */; };
+		ACA4F2D3F424DA0891EC8A70 /* Pods_Marsplay_Kurian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580FDB0A86DC83316A2B923A /* Pods_Marsplay_Kurian.framework */; };
+		B30B0546D7CB13CB4691D1D7 /* Pods_Marsplay_KurianTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0169470E2905325D262B04DB /* Pods_Marsplay_KurianTests.framework */; };
+		D2188A4C23C66753008731B3 /* PosterDisplayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2188A4B23C66753008731B3 /* PosterDisplayCollectionViewCell.swift */; };
+		D2188A4E23C66877008731B3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2188A4D23C66877008731B3 /* APIManager.swift */; };
+		D2188A5023C66885008731B3 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2188A4F23C66885008731B3 /* APIController.swift */; };
+		D218918C23C6520500E4A0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218918B23C6520500E4A0EF /* AppDelegate.swift */; };
+		D218918E23C6520500E4A0EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218918D23C6520500E4A0EF /* SceneDelegate.swift */; };
+		D218919023C6520500E4A0EF /* PosterDisplayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218918F23C6520500E4A0EF /* PosterDisplayPage.swift */; };
+		D218919323C6520500E4A0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D218919123C6520500E4A0EF /* Main.storyboard */; };
+		D218919523C6520700E4A0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D218919423C6520700E4A0EF /* Assets.xcassets */; };
+		D218919823C6520700E4A0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D218919623C6520700E4A0EF /* LaunchScreen.storyboard */; };
+		D21891A323C6520700E4A0EF /* Marsplay_KurianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21891A223C6520700E4A0EF /* Marsplay_KurianTests.swift */; };
+		D21891AE23C6520700E4A0EF /* Marsplay_KurianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21891AD23C6520700E4A0EF /* Marsplay_KurianUITests.swift */; };
+		D2B2A95B23C6D15F00DFF916 /* DetailPosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2A95A23C6D15F00DFF916 /* DetailPosterViewController.swift */; };
+		D2B2A96323C6ED4400DFF916 /* posterDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2A96223C6ED4400DFF916 /* posterDisplayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D218919F23C6520700E4A0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D218918023C6520500E4A0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D218918723C6520500E4A0EF;
+			remoteInfo = Marsplay_Kurian;
+		};
+		D21891AA23C6520700E4A0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D218918023C6520500E4A0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D218918723C6520500E4A0EF;
+			remoteInfo = Marsplay_Kurian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0169470E2905325D262B04DB /* Pods_Marsplay_KurianTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsplay_KurianTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AE958879AE92F0D0A933F5 /* Pods-Marsplay_KurianUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay_KurianUITests.debug.xcconfig"; path = "Target Support Files/Pods-Marsplay_KurianUITests/Pods-Marsplay_KurianUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		284275FC37002D190BDF8A9E /* Pods-Marsplay_KurianUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay_KurianUITests.release.xcconfig"; path = "Target Support Files/Pods-Marsplay_KurianUITests/Pods-Marsplay_KurianUITests.release.xcconfig"; sourceTree = "<group>"; };
+		324BA3F003AA3D01B6117FDA /* Pods-Marsplay_KurianTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay_KurianTests.debug.xcconfig"; path = "Target Support Files/Pods-Marsplay_KurianTests/Pods-Marsplay_KurianTests.debug.xcconfig"; sourceTree = "<group>"; };
+		580FDB0A86DC83316A2B923A /* Pods_Marsplay_Kurian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsplay_Kurian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0854F24E590DFA542A08A7 /* Pods-Marsplay_Kurian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay_Kurian.release.xcconfig"; path = "Target Support Files/Pods-Marsplay_Kurian/Pods-Marsplay_Kurian.release.xcconfig"; sourceTree = "<group>"; };
+		D2188A4B23C66753008731B3 /* PosterDisplayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterDisplayCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2188A4D23C66877008731B3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D2188A4F23C66885008731B3 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		D218918823C6520500E4A0EF /* Marsplay_Kurian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsplay_Kurian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D218918B23C6520500E4A0EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D218918D23C6520500E4A0EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D218918F23C6520500E4A0EF /* PosterDisplayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterDisplayPage.swift; sourceTree = "<group>"; };
+		D218919223C6520500E4A0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D218919423C6520700E4A0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D218919723C6520700E4A0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D218919923C6520700E4A0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D218919E23C6520700E4A0EF /* Marsplay_KurianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marsplay_KurianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21891A223C6520700E4A0EF /* Marsplay_KurianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marsplay_KurianTests.swift; sourceTree = "<group>"; };
+		D21891A423C6520700E4A0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21891A923C6520700E4A0EF /* Marsplay_KurianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marsplay_KurianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21891AD23C6520700E4A0EF /* Marsplay_KurianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marsplay_KurianUITests.swift; sourceTree = "<group>"; };
+		D21891AF23C6520700E4A0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B2A95A23C6D15F00DFF916 /* DetailPosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPosterViewController.swift; sourceTree = "<group>"; };
+		D2B2A96223C6ED4400DFF916 /* posterDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posterDisplayTests.swift; sourceTree = "<group>"; };
+		E3CA80C1D8E968A9F41878A9 /* Pods-Marsplay_Kurian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay_Kurian.debug.xcconfig"; path = "Target Support Files/Pods-Marsplay_Kurian/Pods-Marsplay_Kurian.debug.xcconfig"; sourceTree = "<group>"; };
+		EFBA843FE58E04C3EF8B0302 /* Pods-Marsplay_KurianTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay_KurianTests.release.xcconfig"; path = "Target Support Files/Pods-Marsplay_KurianTests/Pods-Marsplay_KurianTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBBCE198EC2DE5E84E1A58DB /* Pods_Marsplay_KurianUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsplay_KurianUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D218918523C6520500E4A0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA4F2D3F424DA0891EC8A70 /* Pods_Marsplay_Kurian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D218919B23C6520700E4A0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30B0546D7CB13CB4691D1D7 /* Pods_Marsplay_KurianTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21891A623C6520700E4A0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5739DD541D2F5B29523ABE /* Pods_Marsplay_KurianUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9004624FA90EBEDA5B88FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3CA80C1D8E968A9F41878A9 /* Pods-Marsplay_Kurian.debug.xcconfig */,
+				8A0854F24E590DFA542A08A7 /* Pods-Marsplay_Kurian.release.xcconfig */,
+				324BA3F003AA3D01B6117FDA /* Pods-Marsplay_KurianTests.debug.xcconfig */,
+				EFBA843FE58E04C3EF8B0302 /* Pods-Marsplay_KurianTests.release.xcconfig */,
+				10AE958879AE92F0D0A933F5 /* Pods-Marsplay_KurianUITests.debug.xcconfig */,
+				284275FC37002D190BDF8A9E /* Pods-Marsplay_KurianUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8B7086B5EF45657621AAE90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				580FDB0A86DC83316A2B923A /* Pods_Marsplay_Kurian.framework */,
+				0169470E2905325D262B04DB /* Pods_Marsplay_KurianTests.framework */,
+				FBBCE198EC2DE5E84E1A58DB /* Pods_Marsplay_KurianUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D218917F23C6520500E4A0EF = {
+			isa = PBXGroup;
+			children = (
+				D218918A23C6520500E4A0EF /* Marsplay_Kurian */,
+				D21891A123C6520700E4A0EF /* Marsplay_KurianTests */,
+				D21891AC23C6520700E4A0EF /* Marsplay_KurianUITests */,
+				D218918923C6520500E4A0EF /* Products */,
+				1F9004624FA90EBEDA5B88FA /* Pods */,
+				B8B7086B5EF45657621AAE90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D218918923C6520500E4A0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D218918823C6520500E4A0EF /* Marsplay_Kurian.app */,
+				D218919E23C6520700E4A0EF /* Marsplay_KurianTests.xctest */,
+				D21891A923C6520700E4A0EF /* Marsplay_KurianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D218918A23C6520500E4A0EF /* Marsplay_Kurian */ = {
+			isa = PBXGroup;
+			children = (
+				D218918B23C6520500E4A0EF /* AppDelegate.swift */,
+				D218918D23C6520500E4A0EF /* SceneDelegate.swift */,
+				D2B2A95C23C6E8EC00DFF916 /* API Handler */,
+				D2B2A95F23C6EB5900DFF916 /* Poster */,
+				D218919123C6520500E4A0EF /* Main.storyboard */,
+				D218919423C6520700E4A0EF /* Assets.xcassets */,
+				D218919623C6520700E4A0EF /* LaunchScreen.storyboard */,
+				D218919923C6520700E4A0EF /* Info.plist */,
+			);
+			path = Marsplay_Kurian;
+			sourceTree = "<group>";
+		};
+		D21891A123C6520700E4A0EF /* Marsplay_KurianTests */ = {
+			isa = PBXGroup;
+			children = (
+				D21891A223C6520700E4A0EF /* Marsplay_KurianTests.swift */,
+				D2B2A96223C6ED4400DFF916 /* posterDisplayTests.swift */,
+				D21891A423C6520700E4A0EF /* Info.plist */,
+			);
+			path = Marsplay_KurianTests;
+			sourceTree = "<group>";
+		};
+		D21891AC23C6520700E4A0EF /* Marsplay_KurianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D21891AD23C6520700E4A0EF /* Marsplay_KurianUITests.swift */,
+				D21891AF23C6520700E4A0EF /* Info.plist */,
+			);
+			path = Marsplay_KurianUITests;
+			sourceTree = "<group>";
+		};
+		D2B2A95C23C6E8EC00DFF916 /* API Handler */ = {
+			isa = PBXGroup;
+			children = (
+				D2188A4F23C66885008731B3 /* APIController.swift */,
+				D2188A4D23C66877008731B3 /* APIManager.swift */,
+			);
+			path = "API Handler";
+			sourceTree = "<group>";
+		};
+		D2B2A95D23C6EAC100DFF916 /* Poster Display */ = {
+			isa = PBXGroup;
+			children = (
+				D218918F23C6520500E4A0EF /* PosterDisplayPage.swift */,
+				D2188A4B23C66753008731B3 /* PosterDisplayCollectionViewCell.swift */,
+			);
+			path = "Poster Display";
+			sourceTree = "<group>";
+		};
+		D2B2A95E23C6EAFF00DFF916 /* Poster Fullscreen */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2A95A23C6D15F00DFF916 /* DetailPosterViewController.swift */,
+			);
+			path = "Poster Fullscreen";
+			sourceTree = "<group>";
+		};
+		D2B2A95F23C6EB5900DFF916 /* Poster */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2A95D23C6EAC100DFF916 /* Poster Display */,
+				D2B2A95E23C6EAFF00DFF916 /* Poster Fullscreen */,
+			);
+			path = Poster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D218918723C6520500E4A0EF /* Marsplay_Kurian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21891B223C6520700E4A0EF /* Build configuration list for PBXNativeTarget "Marsplay_Kurian" */;
+			buildPhases = (
+				EBA88D4A4178CF894341B2B1 /* [CP] Check Pods Manifest.lock */,
+				D218918423C6520500E4A0EF /* Sources */,
+				D218918523C6520500E4A0EF /* Frameworks */,
+				D218918623C6520500E4A0EF /* Resources */,
+				6B81988F350C39729276769B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marsplay_Kurian;
+			productName = Marsplay_Kurian;
+			productReference = D218918823C6520500E4A0EF /* Marsplay_Kurian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D218919D23C6520700E4A0EF /* Marsplay_KurianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21891B523C6520700E4A0EF /* Build configuration list for PBXNativeTarget "Marsplay_KurianTests" */;
+			buildPhases = (
+				99ED5F7E5BEFEFF424587244 /* [CP] Check Pods Manifest.lock */,
+				D218919A23C6520700E4A0EF /* Sources */,
+				D218919B23C6520700E4A0EF /* Frameworks */,
+				D218919C23C6520700E4A0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21891A023C6520700E4A0EF /* PBXTargetDependency */,
+			);
+			name = Marsplay_KurianTests;
+			productName = Marsplay_KurianTests;
+			productReference = D218919E23C6520700E4A0EF /* Marsplay_KurianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D21891A823C6520700E4A0EF /* Marsplay_KurianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21891B823C6520700E4A0EF /* Build configuration list for PBXNativeTarget "Marsplay_KurianUITests" */;
+			buildPhases = (
+				97ECD0F6A9AE57C8BFE6F993 /* [CP] Check Pods Manifest.lock */,
+				D21891A523C6520700E4A0EF /* Sources */,
+				D21891A623C6520700E4A0EF /* Frameworks */,
+				D21891A723C6520700E4A0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21891AB23C6520700E4A0EF /* PBXTargetDependency */,
+			);
+			name = Marsplay_KurianUITests;
+			productName = Marsplay_KurianUITests;
+			productReference = D21891A923C6520700E4A0EF /* Marsplay_KurianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D218918023C6520500E4A0EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = kurian;
+				TargetAttributes = {
+					D218918723C6520500E4A0EF = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					D218919D23C6520700E4A0EF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D218918723C6520500E4A0EF;
+					};
+					D21891A823C6520700E4A0EF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = D218918723C6520500E4A0EF;
+					};
+				};
+			};
+			buildConfigurationList = D218918323C6520500E4A0EF /* Build configuration list for PBXProject "Marsplay_Kurian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D218917F23C6520500E4A0EF;
+			productRefGroup = D218918923C6520500E4A0EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D218918723C6520500E4A0EF /* Marsplay_Kurian */,
+				D218919D23C6520700E4A0EF /* Marsplay_KurianTests */,
+				D21891A823C6520700E4A0EF /* Marsplay_KurianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D218918623C6520500E4A0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D218919823C6520700E4A0EF /* LaunchScreen.storyboard in Resources */,
+				D218919523C6520700E4A0EF /* Assets.xcassets in Resources */,
+				D218919323C6520500E4A0EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D218919C23C6520700E4A0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21891A723C6520700E4A0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B81988F350C39729276769B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marsplay_Kurian/Pods-Marsplay_Kurian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Marsplay_Kurian/Pods-Marsplay_Kurian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marsplay_Kurian/Pods-Marsplay_Kurian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97ECD0F6A9AE57C8BFE6F993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsplay_KurianUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99ED5F7E5BEFEFF424587244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsplay_KurianTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA88D4A4178CF894341B2B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsplay_Kurian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D218918423C6520500E4A0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D218919023C6520500E4A0EF /* PosterDisplayPage.swift in Sources */,
+				D2B2A95B23C6D15F00DFF916 /* DetailPosterViewController.swift in Sources */,
+				D218918C23C6520500E4A0EF /* AppDelegate.swift in Sources */,
+				D2188A5023C66885008731B3 /* APIController.swift in Sources */,
+				D2188A4E23C66877008731B3 /* APIManager.swift in Sources */,
+				D2188A4C23C66753008731B3 /* PosterDisplayCollectionViewCell.swift in Sources */,
+				D218918E23C6520500E4A0EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D218919A23C6520700E4A0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21891A323C6520700E4A0EF /* Marsplay_KurianTests.swift in Sources */,
+				D2B2A96323C6ED4400DFF916 /* posterDisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21891A523C6520700E4A0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21891AE23C6520700E4A0EF /* Marsplay_KurianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21891A023C6520700E4A0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D218918723C6520500E4A0EF /* Marsplay_Kurian */;
+			targetProxy = D218919F23C6520700E4A0EF /* PBXContainerItemProxy */;
+		};
+		D21891AB23C6520700E4A0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D218918723C6520500E4A0EF /* Marsplay_Kurian */;
+			targetProxy = D21891AA23C6520700E4A0EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D218919123C6520500E4A0EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D218919223C6520500E4A0EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D218919623C6520700E4A0EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D218919723C6520700E4A0EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D21891B023C6520700E4A0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D21891B123C6520700E4A0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21891B323C6520700E4A0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CA80C1D8E968A9F41878A9 /* Pods-Marsplay_Kurian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 563QUAN224;
+				INFOPLIST_FILE = Marsplay_Kurian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kurian.Marsplay-Kurian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21891B423C6520700E4A0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0854F24E590DFA542A08A7 /* Pods-Marsplay_Kurian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 563QUAN224;
+				INFOPLIST_FILE = Marsplay_Kurian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kurian.Marsplay-Kurian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D21891B623C6520700E4A0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324BA3F003AA3D01B6117FDA /* Pods-Marsplay_KurianTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 563QUAN224;
+				INFOPLIST_FILE = Marsplay_KurianTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kurian.Marsplay-KurianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsplay_Kurian.app/Marsplay_Kurian";
+			};
+			name = Debug;
+		};
+		D21891B723C6520700E4A0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBA843FE58E04C3EF8B0302 /* Pods-Marsplay_KurianTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 563QUAN224;
+				INFOPLIST_FILE = Marsplay_KurianTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kurian.Marsplay-KurianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsplay_Kurian.app/Marsplay_Kurian";
+			};
+			name = Release;
+		};
+		D21891B923C6520700E4A0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AE958879AE92F0D0A933F5 /* Pods-Marsplay_KurianUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 563QUAN224;
+				INFOPLIST_FILE = Marsplay_KurianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kurian.Marsplay-KurianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marsplay_Kurian;
+			};
+			name = Debug;
+		};
+		D21891BA23C6520700E4A0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284275FC37002D190BDF8A9E /* Pods-Marsplay_KurianUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 563QUAN224;
+				INFOPLIST_FILE = Marsplay_KurianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kurian.Marsplay-KurianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marsplay_Kurian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D218918323C6520500E4A0EF /* Build configuration list for PBXProject "Marsplay_Kurian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21891B023C6520700E4A0EF /* Debug */,
+				D21891B123C6520700E4A0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21891B223C6520700E4A0EF /* Build configuration list for PBXNativeTarget "Marsplay_Kurian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21891B323C6520700E4A0EF /* Debug */,
+				D21891B423C6520700E4A0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21891B523C6520700E4A0EF /* Build configuration list for PBXNativeTarget "Marsplay_KurianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21891B623C6520700E4A0EF /* Debug */,
+				D21891B723C6520700E4A0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21891B823C6520700E4A0EF /* Build configuration list for PBXNativeTarget "Marsplay_KurianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21891B923C6520700E4A0EF /* Debug */,
+				D21891BA23C6520700E4A0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D218918023C6520500E4A0EF /* Project object */;
+}

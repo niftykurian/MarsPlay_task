@@ -1,0 +1,6 @@
+framework module Pods_Marsplay_KurianUITests {
+  umbrella header "Pods-Marsplay_KurianUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
